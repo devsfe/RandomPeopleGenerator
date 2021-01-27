@@ -11,14 +11,13 @@ body {
     width: 100%;
     min-height: 100vh;
     display: flex;
-    align-items: center;
     justify-content: center;
 }
 
 .container {
     display: flex;
     align-items: center;
-    justify-content: center;
+    padding: 40px 0; 
     flex-direction: column;
 }
 
@@ -36,8 +35,35 @@ body {
     background-color: #eb4034;
     color: #fff;
     transition: ease 0.2s;
+    margin: 0 0 60px 0;
 }
 
 .generate-btn:hover {
     background-color: #d1271b;    
+}
+
+.person-container {
+    display: flex;
+    
+    justify-content: center;
+    flex-direction: column;
+}
+
+.person-image {
+    margin: 0 auto 25px auto;
+    object-fit: cover;
+    width: 150px;
+}
+
+.person-description {
+    margin: 0 0 15px 0;
+    font-size: 18px;
+    font-weight: normal;
+    text-align: start;
+}
+
+@media(max-width: 600px) {
+    .title {
+        font-size: 26px;
+    }    
 }

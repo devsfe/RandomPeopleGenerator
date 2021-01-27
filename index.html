@@ -9,10 +9,18 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
+    <div class="container" id="container">
         <h1 class="title">Random People Generator</h1>
-        <button id="generate-btn" class="generate-btn">Gerar</button>
+        <button id="generate-btn" class="generate-btn">Generate</button>
+        <div class="person-container">
+            <img src="" alt="" id="personImage" class="person-image">
+            <h4 id="name" class="person-description"></h4>
+            <h4 id="age" class="person-description"></h4>
+            <h4 id="country" class="person-description"></h4>
+            <h4 id="email" class="person-description"></h4>
+        </div>
     </div>
+
 
     <!-- Script -->
     <script src="script.js"></script>
